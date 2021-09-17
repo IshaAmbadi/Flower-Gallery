@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grid">Grid View</a></li>
+            <li class="links"><a href="#slide">Slide View</a></li>
+        </ul>
+    </center>
+    <section id="home">
+        <div>
+            <h1>Gallery</h1>
+            <img class="home_img" src="Home%20Image.gif">
+        </div>
+    </section>
+    <hr>
+    <section id="grid">
+        <h2>Grid Gallery</h2>
+        <br>
+        <span class="row">
+            <img class="grid_img image-responsive" src="Flower%201.jpg">
+            <img class="grid_img image-responsive" src="Flower%202.jpg">
+            <img class="grid_img image-responsive" src="Flower%203.jpg">
+            <img class="grid_img image-responsive" src="Flower%204.jpg">
+        </span>
+        <br>
+        <span class="grid">
+            <img class="grid_img image-responsive" src="Flower%205.jpg">
+            <img class="grid_img image-responsive" src="Flower%206.jpg">
+            <img class="grid_img image-responsive" src="Flower%207.jpg">
+            <img class="grid_img image-responsive" src="Flower%208.jpg">
+        </span>
+    </section>
+    <hr>
+    <section id="slide">
+        <h2>Slide Gallery</h2>
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%201.jpg" class="image-responsive slide_img" alt="Azalea">
+                            <div class="carousel-caption">
+                                <h3>Azalea</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%202.jpg" class="image-responsive slide_img" alt="Lilac">
+                            <div class="carousel-caption">
+                                <h3>Lilac</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%203.jpg" class="image-responsive slide_img" alt="Iris">
+                            <div class="carousel-caption">
+                                <h3>Iris</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%204.jpg" class="image-responsive slide_img" alt="Cherry_Blossoms">
+                            <div class="carousel-caption">
+                                <h3>Cherry Blossoms</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%205.jpg" class="image-responsive slide_img" alt="Lantana">
+                            <div class="carousel-caption">
+                                <h3>Lantana</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%206.jpg" class="image-responsive slide_img" alt="Hydrangea">
+                            <div class="carousel-caption">
+                                <h3>Hydrangea</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%207.jpg" class="image-responsive slide_img" alt="Peony">
+                            <div class="carousel-caption">
+                                <h3>Peony</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a class="left carousel-cotrol" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <img src="Flower%208.jpg" class="image-responsive slide_img" alt="Dahlia">
+                            <div class="carousel-caption">
+                                <h3>Dahlia</h3>
+                            </div>
+                        </a>
+                        <a class="right carousel-cotrol" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+</body></html>
